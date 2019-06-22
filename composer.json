@@ -1,0 +1,20 @@
+{
+  "name": "workflow/work-flow",
+  "description": "工作流服务",
+  "license": "MIT License",
+  "authors": [
+    {
+      "name": "leifangbo",
+      "email": "leifangbo@163.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "zircote/swagger-php": "^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Hello\\": "src/"
+    }
+  }
+}

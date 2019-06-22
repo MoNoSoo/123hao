@@ -1,0 +1,27 @@
+openapi: 3.0.0
+info:
+  title: 'My First API'
+  version: '0.1'
+paths:
+  /api/resource.json:
+    get:
+      operationId: 'index::appmsg'
+      responses:
+        '200':
+          description: 'An example resource'
+  /customer/info:
+    get:
+      summary: 用户的个人信息
+      description: '这不是个api接口,这个返回一个页面'
+      operationId: 'index::index'
+      parameters:
+        -
+          name: userId
+          in: query
+          description: 用户ID
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: 'An example resource'
