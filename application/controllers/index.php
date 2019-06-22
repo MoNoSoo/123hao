@@ -35,6 +35,7 @@ class index extends CI_Controller
      */
     public function index()
     {
+
         $sub_title = request("sub_title");//导航栏标签
         if ($sub_title == "") {//默认首页
             $sub_title = "doc";
