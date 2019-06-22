@@ -1,7 +1,7 @@
 {
   "name": "workflow/work-flow",
   "description": "工作流服务",
-  "license": "MIT License",
+  "license": "Apache-2.0",
   "authors": [
     {
       "name": "leifangbo",
